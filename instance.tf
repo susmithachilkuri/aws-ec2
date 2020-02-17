@@ -1,5 +1,5 @@
 provider "aws" {
-      withAWS(credentials:'test')
+      withAWS(credentials:'aws-test')
        #access_key = 
       #secret_key = 
       region     = "us-east-2c"
