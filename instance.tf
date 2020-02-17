@@ -1,7 +1,7 @@
 provider "aws" {
       withAWS(credentials:'test')
-      // access_key = "AKIAZBTBQCSOLD3FJ7NJ"
-      // secret_key = "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"
+       #access_key = 
+      #secret_key = 
       region     = "us-east-2c"
 }
 
