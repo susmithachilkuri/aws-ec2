@@ -1,5 +1,5 @@
 provider "aws" {
-      withAWS(credentials:'aws-test')
+     withCredentials([string(credentialsId: 'aws-test')])
        #access_key = 
       #secret_key = 
       region     = "us-east-2c"
