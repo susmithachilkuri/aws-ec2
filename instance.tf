@@ -1,8 +1,7 @@
 provider "aws" {
-     withCredentials([string(credentialsId: 'aws-test')])
-       #access_key = 
-      #secret_key = 
-      region     = "us-east-2c"
+      access_key = "aws-test" 
+      secret_key = "aws-test"
+      region     = "us-east-2"
 }
 
 resource "aws_instance" "example" {
