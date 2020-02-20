@@ -1,9 +1,9 @@
 variable "AWS_ACCESS_KEY" {
-  $ export AWS_ACCESS_KEY="aws-access-key"
+  withCredentials([string(credentialsId: 'aws-access-key', variable: 'AWS_ACCESS_KEY_ID')])
 }
 
 variable "AWS_SECRET_KEY" {
-  $ export AWS_SECRET_KEY="aws-secret-key"
+ string(credentialsId: 'aws-secret-key', variable: 'AWS_SECRET_ACCESS_KEY')])
 }
 
 variable "AWS_REGION" {
