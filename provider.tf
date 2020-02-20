@@ -1,5 +1,5 @@
 provider "aws" {
-  access_key = "aws-access-key"
-  secret_key = "aws-secret-key"
+  $ export AWS_ACCESS_KEY="aws-access-key"
+  $ export AWS_SECRET_KEY="aws-secret-key"
   region     = var.AWS_REGION
 }
